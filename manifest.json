@@ -1,6 +1,6 @@
 {
 	"id": "japanese-helper",
-	"name": "Japanese Helper",
+	"name": "Japanese note taking helper",
 	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "A plugin to help with Japanese note-taking, including romaji to kana conversion.",
