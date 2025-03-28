@@ -53,3 +53,4 @@ If you encounter any issues or have suggestions for improvements, please create 
 ## License
 
 MIT
+BSD Zero Clause License
