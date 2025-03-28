@@ -1,8 +1,48 @@
-/*
+/* Japanese Helper Plugin Styles */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+/* Ribbon icon */
+.japanese-helper-ribbon-class {
+  color: var(--text-accent);
+}
 
-If your plugin does not need CSS, delete this file.
+/* Instructions area in settings */
+.japanese-helper-instructions {
+  background-color: var(--background-secondary);
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
 
-*/
+.japanese-helper-instructions code {
+  background-color: var(--background-primary-alt);
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-family: var(--font-monospace);
+}
+
+/* Notification styling */
+.notice.japanese-helper-notice {
+  background-color: rgba(121, 187, 255, 0.2);
+  border-left: 3px solid var(--text-accent);
+}
+
+/* Settings tab styling */
+.setting-item-heading.japanese-helper-heading {
+  font-weight: bold;
+  color: var(--text-accent);
+}
+
+/* Kana conversion results highlight */
+.cm-kana-conversion {
+  animation: highlight-fade 2s;
+  border-radius: 3px;
+}
+
+@keyframes highlight-fade {
+  0% {
+    background-color: rgba(255, 213, 145, 0.5);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
