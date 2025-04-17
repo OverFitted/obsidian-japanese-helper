@@ -96,10 +96,9 @@ class JapaneseHelperSettingTab extends PluginSettingTab {
 		const { containerEl } = this;
 
 		containerEl.empty();
-		containerEl.createEl('h2', { text: 'Japanese Helper Settings' });
 
 		new Setting(containerEl)
-			.setName('Show Conversion Notice')
+			.setName('Show conversion notice')
 			.setDesc('Show a notice when text is converted')
 			.addToggle(toggle => toggle
 				.setValue(this.plugin.settings.showConversionNotice)
@@ -108,7 +107,9 @@ class JapaneseHelperSettingTab extends PluginSettingTab {
 					await this.plugin.saveSettings();
 				}));
 
-		containerEl.createEl('h3', { text: 'Usage Instructions' });
+		new Setting(containerEl)
+			.setName('Usage instructions')
+			.setHeading();
 
 		const instructionsEl = containerEl.createEl('div', { cls: 'japanese-helper-instructions' });
 
