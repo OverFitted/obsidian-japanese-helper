@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-japanese-helper",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Convert romaji to hiragana and katakana to streamline Japanese note‑taking.",
 	"main": "main.js",
 	"scripts": {
